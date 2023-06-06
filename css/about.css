@@ -2,14 +2,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
 .wel-pg{
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .wel-pg::before{
@@ -40,16 +42,18 @@ p{
 }
 
 li{
+    padding: 0.3rem 0.8rem;
     margin-top: 1rem;
     color: #f08400;
 }
 
-a{
+.a-a{
+    padding: 0.3rem 0.8rem;
     color: #f08400;
     text-decoration: none;
 }
 
-a:hover{
+.a-a:hover{
     box-shadow: 0px 0px 10px 5px #63605f;
     transition: box-shadow 0.5s;
     color: #f0b061;
@@ -60,7 +64,7 @@ a:hover{
     padding: 1vh 0;
     text-align: center;
     background-color: #f17c52;
-    margin: 7.5rem 0 0 0;
+    margin-top: auto;
 }
 
 .con-img{
@@ -88,8 +92,13 @@ a:hover{
     border-radius: 50px;
 }
 
+.mail-p{
+    margin-top: 0.5rem;
+}
+
 .con-img-n, .mail-ad, .p-nu{
     font-size: 0.75rem;
     color: bisque;
+    margin: 0;
 }
 
