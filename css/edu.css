@@ -22,6 +22,10 @@ body{
     align-items: center;
 }
 
+.cer{
+    margin-top: 7rem;
+}
+
 .ed-ta, .cer-ta{
     padding: 0 0.3%;
     width: 89.4%;
@@ -41,26 +45,43 @@ h5{
 .ed-con, .cer-con{
     width: 89.4%;
     padding: 0.3%;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #63605f;
 }
 
 .ed-d-h, .cer-d-h{
     display: flex;
     background-color: #ec5119;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .inf{
     padding: 1% 0.9%;
     width: 20%;
-    color: gray;
-    
+    color: gray;   
 }
 
-.ed-d-a{
+.hd{
+    text-align: center;
+}
+
+.ext{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.yr{
+    width: 25%;
+}
+
+.ed-d-a, .cer-d-a{
     display: flex;
     margin-top: 1rem;
 }
 
-.ed-d-b{
+.ed-d-b, .cer-d-b{
     display: flex;
     margin-top: 1rem;
     background-color: #f0e3df;
